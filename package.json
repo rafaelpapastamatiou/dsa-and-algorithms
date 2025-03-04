@@ -11,7 +11,8 @@
     "ds:stack-llist": "ts-node data-structures/stack/linked-list-stack.ts",
     "ds:heap-min": "ts-node data-structures/heap/min-heap.ts",
     "algo:dijkstra": "ts-node algorithms/dijkstra.ts",
-    "algo:nislands": "ts-node algorithms/number-of-islands.ts"
+    "algo:nislands": "ts-node algorithms/number-of-islands.ts",
+    "algo:fibonacci": "ts-node algorithms/fibonacci.ts"
   },
   "keywords": [],
   "author": "Rafael Papastamatiou",
