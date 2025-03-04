@@ -1,0 +1,25 @@
+{
+  "name": "dsa-and-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sort:merge": "ts-node sort/mergesort.ts",
+    "sort:quick": "ts-node sort/quicksort.ts",
+    "sort:bubble": "ts-node sort/bubblesort.ts",
+    "ds:binarytree": "ts-node data-structures/binary-tree.ts",
+    "ds:stack-array": "ts-node data-structures/stack/array-stack.ts",
+    "ds:stack-llist": "ts-node data-structures/stack/linked-list-stack.ts",
+    "ds:heap-min": "ts-node data-structures/heap/min-heap.ts",
+    "algo:dijkstra": "ts-node algorithms/dijkstra.ts",
+    "algo:nislands": "ts-node algorithms/number-of-islands.ts"
+  },
+  "keywords": [],
+  "author": "Rafael Papastamatiou",
+  "license": "ISC",
+  "description": "Data Structures & Algorithms in TypeScript",
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
